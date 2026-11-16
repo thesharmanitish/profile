@@ -21,7 +21,7 @@ main:
     weight: 20
   - name: TIL
     url: https://github.com/thesharmanitish/til/
-    parent: Experience
+    parent: Projects
     weight: 21
   - name: Projects
     url: projects/
