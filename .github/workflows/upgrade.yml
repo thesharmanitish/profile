@@ -76,6 +76,9 @@ jobs:
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v8
+        # The repository setting allowing Actions to create pull requests may
+        # be disabled. The upgrade branch is still pushed for manual PR creation.
+        continue-on-error: true
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore(deps): upgrade hugoblox modules"
