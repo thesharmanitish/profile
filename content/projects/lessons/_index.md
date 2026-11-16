@@ -8,8 +8,8 @@ sections:
     content:
       title: Lessons
       filters:
-        folders:
-          - projects/lessons
+        kinds:
+          - page
     design:
       view: article-grid
       columns: 3
