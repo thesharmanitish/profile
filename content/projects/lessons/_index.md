@@ -10,8 +10,6 @@ sections:
       filters:
         folders:
           - projects/lessons
-        kinds:
-          - docs
     design:
       view: article-grid
       columns: 3
