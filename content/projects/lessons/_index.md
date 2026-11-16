@@ -9,9 +9,9 @@ sections:
       title: Lessons
       filters:
         folders:
-          - projects/til
+          - projects/lessons
         kinds:
-          - page
+          - docs
     design:
       view: article-grid
       columns: 3
