@@ -1,0 +1,19 @@
+---
+title: 'Test For Symlinks In Bash'
+date: 2019-07-05
+type: docs
+aliases:
+  - /projects/til/2019-07-05_test-for-symlinks-in-bash/
+---
+## Test for Symlinks in Bash
+
+Use `-L` instead of `-h` for compatibility.
+
+```bash
+if [[ -L /path/to/suspected_symlink ]]; then
+  echo "is symlink"
+else
+  echo "no symlink"
+fi  
+```
+

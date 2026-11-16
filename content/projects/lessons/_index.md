@@ -9,7 +9,7 @@ sections:
       title: Lessons
       filters:
         folders:
-          - projects/til
+          - projects/lessons
         kinds:
           - docs
     design:
