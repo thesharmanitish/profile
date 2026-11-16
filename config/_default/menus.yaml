@@ -19,8 +19,8 @@ main:
   - name: Experience
     url: experience/
     weight: 20
-  - name: TIL
-    url: projects/til/
+  - name: Lessons
+    url: projects/lessons/
     parent: Projects
     weight: 21
   - name: Projects
