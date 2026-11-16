@@ -11,7 +11,7 @@ sections:
         folders:
           - projects/til
         kinds:
-          - page
+          - docs
     design:
       view: article-grid
       columns: 3
